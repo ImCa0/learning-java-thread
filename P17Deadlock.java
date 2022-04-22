@@ -30,7 +30,7 @@ class DeadLockTask2 extends Thread {
   }
 }
 
-public class P15Deadlock {
+public class P17Deadlock {
   public static void main(String[] args) throws InterruptedException {
     DeadLockTask1 task1 = new DeadLockTask1();
     DeadLockTask2 task2 = new DeadLockTask2();

@@ -75,7 +75,7 @@ class Consumer implements Runnable {
   }
 }
 
-public class P17ThreadCommunication {
+public class P20ThreadCommunication {
   public static void main(String[] args) {
     Data data = new Data();
     Producer producer = new Producer(data);

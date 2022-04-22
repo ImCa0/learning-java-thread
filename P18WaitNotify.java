@@ -13,7 +13,7 @@ class WaitTask extends Thread {
   }
 }
 
-public class P16WaitNotify {
+public class P18WaitNotify {
   public static void main(String[] args) throws InterruptedException {
     // task 是锁
     WaitTask task = new WaitTask();
